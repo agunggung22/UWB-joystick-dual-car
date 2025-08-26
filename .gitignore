@@ -1,0 +1,19 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# Arduino/PlatformIO
+.pio/
+.ccls-cache/
+**/.pio
+**/.DS_Store
+libraries/
+
+# Build artifacts
+build/
+*.elf
+*.bin
+*.hex

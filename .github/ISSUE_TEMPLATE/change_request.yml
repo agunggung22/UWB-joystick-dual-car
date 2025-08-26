@@ -1,0 +1,17 @@
+name: Change request (without touching originals)
+description: 원본 .ino는 유지하고 변경 제안/실험 요청
+title: "[Change] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 제안 내용
+  - type: textarea
+    id: reason
+    attributes:
+      label: 필요성/배경
+  - type: textarea
+    id: how
+    attributes:
+      label: 구현 아이디어(원본은 변경하지 않음)
